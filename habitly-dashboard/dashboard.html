@@ -54,19 +54,239 @@
   <main class="container" style="padding-block: var(--space-6) var(--space-8);">
     <h1 style="font-size: var(--fs-xl); margin-bottom: var(--space-5);">Dashboard</h1>
 
-    <div class="placeholder-page">
-      <p class="placeholder-page__owner">Owner — Dalia Samy Abdelaziz</p>
-      <h2 style="font-size: var(--fs-lg);" data-i18n="placeholder.notBuilt" data-i18n-vars="page:Dashboard">Dashboard page — not built yet</h2>
-      <p style="max-width: 46ch;" data-i18n="placeholder.instructions" data-i18n-vars="html:dashboard.html|css:styles/dashboard.css|js:js/dashboard.js">
-        The shell, nav, tokens, and data layer are ready. Build this page's markup in
-        <code>dashboard.html</code>, its styles in <code>styles/dashboard.css</code>, and its
-        behavior in <code>js/dashboard.js</code> — read from <code>window.HabitlyData</code>
-        rather than hardcoding numbers.
-      </p>
-      <p style="font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--color-text-tertiary);">
-        Scope: Header, Stat Cards, Ongoing/Completed panels, Weekly chart (Day Picker), All-done banner
-      </p>
-    </div>
+    
+
+     <h1>Good morning,Alex.</h1>
+        <p>4<i>habits left to complete today</i></p>
+        <div class="cards row">
+            <div class=" col-12 col-sm-6 col-md-3">
+                <div class="card stat-card first-card">
+
+                    <div class="progress-wrapper">
+
+                        <div class="progress-circle">
+                            <span>33%</span>
+                        </div>
+
+                        <div>
+                            <h2>2<small>/6</small></h2>
+                            <small>Today's done</small>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- <div class="card stat-card">
+
+                    <h2>33<span>%</span></h2>
+                    <p>2/6</p>
+                    <small>Today's done</small>
+                </div> -->
+            </div>
+            <div class=" col-12 col-sm-6 col-md-3">
+                <div class="card stat-card">
+                    <h6>LONGEST STREAK</h6>
+                    <h2 class="h-2">21<small>d</small></h2>
+                    <small>Read a Book</small>
+                </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-md-3">
+                <div class="card stat-card">
+                    <h6>WEEKLY RATE</h6>
+                    <h2 class="h2">69<span>%</span></h2>
+
+                    <small>29 completions this week</small>
+                </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-md-3">
+                <div class="card stat-card">
+                    <h6>ACTIVE HABITS</h6>
+                    <h2 class="h">6</h2>
+
+                    <small>across 4 category</small>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ongoing-thisWeek row g-4">
+
+            <div class="ongoing col-lg-8">
+
+                <div class="section-card">
+
+                    <div class="section-title">
+                        <h3>Ongoing <span>(4)</span></h3>
+                        <a href="#">See all →</a>
+                    </div>
+
+
+                    <div class="tasks">
+                        <div class="task-info">
+                            <div class="task-icon blue-icon">
+                                <i class="fa-solid fa-book"></i>
+                            </div>
+
+                            <div>
+                                <h4>Read a Book</h4>
+                                <h5>21d streak</h5>
+                            </div>
+                        </div>
+
+                        <div class="habit habit-circle blue"></div>
+                    </div>
+
+
+                    <div class="tasks">
+                        <div class="task-info">
+                            <div class="task-icon green-icon">
+                                <i class="fa-solid fa-droplet"></i>
+                            </div>
+
+                            <div>
+                                <h4>Drink Water</h4>
+                                <h5>5d streak</h5>
+                            </div>
+                        </div>
+
+                        <div class="habit habit-circle green"></div>
+                    </div>
+
+
+                    <div class="tasks">
+                        <div class="task-info">
+                            <div class="task-icon pink-icon">
+                                <i class="fa-solid fa-spa"></i>
+                            </div>
+
+                            <div>
+                                <h4>Meditate</h4>
+                                <h5>3d streak</h5>
+                            </div>
+                        </div>
+
+                        <div class="habit habit-circle pink"></div>
+                    </div>
+
+
+                    <div class="tasks">
+                        <div class="task-info">
+                            <div class="task-icon purple-icon">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                            </div>
+
+                            <div>
+                                <h4>No Screens After 10pm</h4>
+                                <h5>9d streak</h5>
+                            </div>
+                        </div>
+
+                        <div class=" habit habit-circle purple"></div>
+                    </div>
+
+                </div>
+                   <div class="completed-bycategory row g-4">
+            <div class="col-lg-8">
+                <div class="section-card ">
+                    <h3>Completed</h3>
+
+                    <div class="completed-list ">
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+         </div>
+            <div class="thisweek col-lg-4">
+                <div class="section-card">
+
+                    <div class="section-title">
+                        <h3>This Week</h3>
+                    </div>
+
+                    <div class="week-days">
+
+                        <div class="day">
+                            <span>M</span>
+                            <div class="day-box">
+                                <small>5</small>
+                            </div>
+                        </div>
+
+                        <div class="day">
+                            <span>T</span>
+                            <div class="day-box">
+                                <small>4</small>
+                            </div>
+                        </div>
+
+                        <div class="day">
+                            <span>W</span>
+                            <div class="day-box">
+                                <small>4</small>
+                            </div>
+                        </div>
+
+                        <div class="day">
+                            <span>T</span>
+                            <div class="day-box">
+                                <small>4</small>
+                            </div>
+                        </div>
+
+                        <div class="day">
+                            <span>F</span>
+                            <div class="day-box">
+                                <small>5</small>
+                            </div>
+                        </div>
+
+                        <div class="day">
+                            <span>S</span>
+                            <div class="day-box">
+                                <small>5</small>
+                            </div>
+                        </div>
+
+                        <!-- Today -->
+                        <div class="day today">
+                            <span>S</span>
+                            <div class="day-box">
+                                <small>2</small>
+                            </div>
+                            <i></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="completed-bycategory row g-4">
+            <div class="col-lg-8">
+                <div class="section-card ">
+                    <h3>Completed</h3>
+
+                    <div class="completed-list ">
+
+                    </div>
+
+                </div>
+            </div> -->
+            <!-- <div class="bycategory accordion col-lg-4" >
+                <h4>By Category</h4>
+                <div class="section-card">
+                </div>
+            </div> --> 
+
+            <!-- Recommendations -->
+      <section class="settings-panel" aria-labelledby="recsHeading">
+        <h2 id="recsHeading" class="settings-panel__title" data-i18n="settings.recs.title"><br>Recommended for you</h2>
+        <p class="settings-panel__desc" data-i18n="settings.recs.desc">Suggestions based on your current habits.</p>
+        <div id="recsList" class="recs-list"></div>
+      </section>
   </main>
 
   <footer class="site-footer">
