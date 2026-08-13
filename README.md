@@ -9,7 +9,7 @@
 
 # 🌿 Habits Dashboard
 
-A fully responsive habit-tracking dashboard built with pure **HTML, CSS & JavaScript** — no backend, no database, no framework. All data lives in the browser via `localStorage`.
+A fully responsive habit-tracking dashboard built with pure **HTML, CSS & JavaScript** — no backend, no database, bootstrap framework. All data lives in the browser via `localStorage`.
 
 
 ## ✨ Features
